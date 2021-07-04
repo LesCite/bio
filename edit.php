@@ -58,7 +58,7 @@ $skillset=explode(',',$skillset_array);
 <body>
 
     <form method="POST" enctype="multipart/form-data">
-        <input type="t" name="personal_data_id" value="<?=$row->personal_data_id?>">
+        <input type="hidden" name="personal_data_id" value="<?=$row->personal_data_id?>">
         <div class="container mt-3 mb-3">
             <h4 class="text-center">BIO - DATA</h4>
 
